@@ -81,4 +81,5 @@ print(a[x])
 s = "Hello, world!"
 
 # Output just the 8th-12th characters: "world"
-print()
+x = slice(7, 12)
+print('"'+s[x]+'"')
