@@ -64,5 +64,5 @@ print(waypoints)
 
 for dictionary in waypoints :
     print("*******  location  *******")
-    for key in dictionary :
-        print(dictionary[key] )
+    for val in dictionary :
+        print(dictionary[val] )
